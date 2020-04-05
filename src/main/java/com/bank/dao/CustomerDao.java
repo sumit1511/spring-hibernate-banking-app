@@ -73,4 +73,10 @@ public class CustomerDao implements Serializable {
         session.update(customer);
         return updatedBc;
     }
+    @Transactional
+    public Customer getCustomer(int customerId)
+    {
+        Session session = sessionFactory.getCurrentSession();
+        return session.get(Customer.class,customerId);
+    }
 }
