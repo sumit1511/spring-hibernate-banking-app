@@ -1,0 +1,39 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:security="http://www.springframework.org/schema/security"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/security
+    http://www.springframework.org/schema/security/spring-security.xsd">
+       <security:http auto-config="true" use-expressions="false">
+
+           <security:intercept-url pattern="/customer/*" access="ROLE_ADMIN,ROLE_CUSTOMER"></security:intercept-url>
+           <security:intercept-url pattern="/branch/*" access="ROLE_ADMIN"></security:intercept-url>
+           <security:csrf disabled="true"></security:csrf>
+           <!--           browser exceptions-->
+           <security:access-denied-handler ref="customAccessDeniedHandler"/>
+           <security:http-basic entry-point-ref="myBasicAuthenticationEntryPoint"/>
+
+           <security:logout logout-success-url="/index.jsp"/>
+       </security:http>
+
+     <security:authentication-manager>
+         <security:authentication-provider>
+             <security:jdbc-user-service data-source-ref="dataSource"
+                                         users-by-username-query="select user_name, password, enabled from USERS
+                                         where user_name = ?"
+                                         authorities-by-username-query="select u.user_name, ur.authority from USERS u,
+                                         USER_ROLES ur where u.user_id = ur.user_id and u.user_name = ? " />
+         </security:authentication-provider>
+     </security:authentication-manager>
+    <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+        <property name="driverClassName" value="com.mysql.cj.jdbc.Driver"/>
+        <property name="url" value="jdbc:mysql://localhost:3306/bank?useSSL=false"/>
+        <property name="username" value="root"/>
+        <property name="password" value="root"/>
+    </bean>
+    <bean id="myBasicAuthenticationEntryPoint" class="com.bank.security.MyBasicAuthenticationEntryPoint"></bean>
+
+    <bean id="customAccessDeniedHandler"
+          class="com.bank.security.CustomAccessDeniedHandler" />
+</beans>
