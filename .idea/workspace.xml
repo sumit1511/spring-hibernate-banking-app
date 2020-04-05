@@ -1,31 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ae9b2f47-ef7e-4cab-8aa1-c466962667d3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/SumitKumarBangar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bank/controller/BranchController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bank/controller/BranchRestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bank/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bank/controller/CustomerRestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bank/dao/CustomerDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bank/dao/CustomerDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/home.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/banking_application.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/banking_application.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/banking_application/WEB-INF/classes/com/bank/controller/BranchController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/banking_application/WEB-INF/classes/com/bank/controller/CustomerController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/banking_application/WEB-INF/classes/com/bank/dao/CustomerDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/banking_application/WEB-INF/classes/com/bank/dao/CustomerDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/banking_application/WEB-INF/views/home.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/banking_application/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/banking_application/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/banking_application/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/banking_application/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/bank/controller/BranchController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/bank/controller/CustomerController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/bank/dao/CustomerDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bank/dao/CustomerDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-    </list>
+    <list default="true" id="ae9b2f47-ef7e-4cab-8aa1-c466962667d3" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,6 +17,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -100,7 +77,19 @@
       <option name="presentableId" value="Default" />
       <updated>1585027194885</updated>
     </task>
+    <task id="LOCAL-00001" summary="adding Spring Security">
+      <created>1586103136874</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1586103136874</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="adding Spring Security" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding Spring Security" />
   </component>
   <component name="WindowStateProjectService">
     <state x="371" y="96" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1585126676344">
@@ -123,10 +112,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="372" y="197" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1280.680@0.0.1280.680" timestamp="1585675299616" />
-    <state x="226" y="0" key="CommitChangelistDialog2" timestamp="1586103054815">
+    <state x="226" y="0" key="CommitChangelistDialog2" timestamp="1586103303403">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="226" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1586103054815" />
+    <state x="226" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1586103303403" />
     <state width="1237" height="204" key="GridCell.Tab.0.bottom" timestamp="1585165889062">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -163,6 +152,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="337" y="165" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1586065215244" />
+    <state x="450" y="258" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586103311418">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="450" y="258" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1586103311418" />
     <state x="91" y="36" key="new project wizard" timestamp="1585804859790">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
